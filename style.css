@@ -16,8 +16,29 @@ body{
 
 header{
     background-size: cover;
-    background: url(https://nomsmag.gumlet.io/wp-content/uploads/2020/10/best-activities-in-vancouver-during-winter-robson-ice-rink.jpg?compress=true&quality=80&w=1080&dpr=2.6);
-    height: 450px;  
+    /* background: url(https://nomsmag.gumlet.io/wp-content/uploads/2020/10/best-activities-in-vancouver-during-winter-robson-ice-rink.jpg?compress=true&quality=80&w=1080&dpr=2.6); */
+    background: url(https://nomsmag.gumlet.io/wp-content/uploads/2020/10/best-activities-in-vancouver-during-winter-robson-ice-rink.jpg?compress=true&quality=80&w=1080&dpr=2.6 ) no-repeat center center fixed;
+
+    background-size: cover;
+
+    -moz-background-size: cover;
+
+    -webkit-background-size: cover;
+
+    -o-background-size: cover;) no-repeat center center fixed;
+
+    background-size: cover;
+
+    -moz-background-size: cover;
+
+    -webkit-background-size: cover;
+
+    -o-background-size: cover;
+    height: 450px;
+    
+
+
+    
 }
     
 section{
