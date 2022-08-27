@@ -25,7 +25,7 @@ header{
 
     -webkit-background-size: cover;
 
-    -o-background-size: cover;) no-repeat center center fixed;
+    -o-background-size: cover; no-repeat, center , center fixed;
 
     background-size: cover;
 
@@ -35,10 +35,6 @@ header{
 
     -o-background-size: cover;
     height: 450px;
-    
-
-
-    
 }
     
 section{
@@ -205,3 +201,67 @@ ul{
     color: aliceblue;
 }
 
+.footer_cont{
+    display: block;
+    padding bottom: 20px;
+    color:rgba(33, 27, 27, 0.812);
+    background-color:rgba(197, 205, 213, 0.884)
+}
+
+.footer{
+   font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0%auto;
+}
+
+.footer-head{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-head h2{
+    margin-bottom: 2rem;
+}
+
+.footer-head a{
+    color:rgb(48, 200, 132);
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.footer-head:hover{
+     color:whitesmoke;
+     cursor: pointer;
+    transition:0.3s ease-out;
+}
+
+#footer-email-form{
+   width: 250px; 
+   height: 30px;
+   border-radius: 5px;
+   outline-style:groove;
+   outline-color: rgb(181, 181, 233);
+   padding-left: 0.5rem;
+   margin-bottom: 1rem;
+   font-size: 1rem;
+}
+
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+   background-color: rgb(202, 0, 0);
+   color: aliceblue;
+   border-radius: 10px;
+   font-size: 1rem;
+}
+
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: rgb(3, 3, 155);
+    transition:all 0.4s ease-out;
+}
