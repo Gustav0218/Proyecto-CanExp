@@ -236,7 +236,7 @@ ul{
 
 .footer-head:hover{
      color:whitesmoke;
-     cursor: pointer;
+     cursor: p;
     transition:0.3s ease-out;
 }
 
