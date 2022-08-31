@@ -205,7 +205,7 @@ ul{
 
 .footer_cont{
     display: block;
-    padding bottom: 20px;
+    padding-bottom: 20px;
     color:rgba(33, 27, 27, 0.812);
     background-color:rgba(197, 205, 213, 0.884)
 }
@@ -236,11 +236,18 @@ ul{
     margin-bottom: 1rem;
 }
 
-.footer-head:hover{
-     color:whitesmoke;
-     cursor:pointer;
-    transition:0.3s ease-out;
+.footer-head a:hover{
+    color:#ffffff;
+    text-decoration: none;
+    margin-bottom: 1rem;
 }
+
+.footer-head>f1:a{
+    color:whitesmoke;
+    cursor:pointer;
+   transition:0.3s ease-out;
+}
+
 
 #footer-email-form{
    width: 250px; 
@@ -267,6 +274,17 @@ ul{
     background-color: rgb(3, 3, 155);
     transition:all 0.4s ease-out;
 }
+
+.boton{
+    height: 30px; 
+    width: 150px
+}
+
+
+
+
+
+
 @media screen  and (max-width: 640px){
    .jumbotron-inner{
    background-color:brown
@@ -281,4 +299,5 @@ ul{
    .header2{
     color: brown;
    }
-   }
+}
+
